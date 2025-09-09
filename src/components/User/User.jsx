@@ -45,7 +45,7 @@ const User = () => {
   return (
     <div className="p-4  mt-6">
       <h2 className="text-xl font-bold mb-2">Users</h2>
-      <form onSubmit={handleSubmit} className=" mb-4">
+      <form onSubmit={handleSubmit} className="flex gap-4 mb-4">
         <input
           type="text"
           placeholder="Name"
