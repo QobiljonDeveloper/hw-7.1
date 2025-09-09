@@ -86,7 +86,7 @@ export default class Products extends Component {
     return (
       <div className="p-4">
         <h2 className="text-xl font-bold mb-2">Products (Class component)</h2>
-        <form onSubmit={this.handleSubmit} className="space-x-2 mb-4">
+        <form onSubmit={this.handleSubmit} className=" mb-4">
           <input
             type="text"
             placeholder="Title"
