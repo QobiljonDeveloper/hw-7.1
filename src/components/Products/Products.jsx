@@ -85,7 +85,7 @@ export default class Products extends Component {
     const { title, price, discount, products, editingItem } = this.state;
     return (
       <div className="p-4">
-        <h2 className="text-xl font-bold mb-2">Products (Class component)</h2>
+        <h2 className="text-xl font-bold mb-2">Products </h2>
         <form onSubmit={this.handleSubmit} className="flex gap-4 mb-4">
           <input
             type="text"
