@@ -89,6 +89,7 @@ export default class Products extends Component {
         <form onSubmit={this.handleSubmit} className="flex gap-4 mb-4">
           <input
             type="text"
+
             placeholder="Title"
             value={title}
             onChange={(e) => this.setState({ title: e.target.value })}
@@ -141,7 +142,7 @@ export default class Products extends Component {
                     <p className="text-green-600 font-bold">Free </p>
                   ) : (
                     <p className="text-green-600 font-bold">
-                      Discounted:{" "}
+                      Discounted Price:{" "}
                       {this.discountedPrice(item.price, item.discount)} so‘m
                     </p>
                   )}
